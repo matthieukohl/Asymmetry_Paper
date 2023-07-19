@@ -1,1 +1,42 @@
-Inversion contains the  
+Readme File paper (Kohl & O'Gorman 2023, submitted)
+
+Folder Inversion:
+
+Inversions of the Moist Omega Equation are done with the scripts plotting_abs_iterative(_rhs).m / plotting_abs_iterative_mode(_rhs).m
+for the global warming simulations (abbreviated by 'abs') and plotting_r_iterative(_rhs).m/plotting_r_mode_iterative(_rhs).m for the reduced stability simulations. 
+plot_lambda_abs_simulation.m and plot_lambda_r_simulation.m are used to calculate lambda in the global warming and reduced stability simulations
+and plot_lambda_abs_and_r_simulation.m is used to make Fig. 3 comparing the asymmetry of the modal and macroturbulent regime in the two simulations. 
+
+plotting_abs_simulation_example.m is used to calculate and compare the inverted omega field to the GCM omega field for a snapshot in the global warming simulations
+(Figs. 1 and 2)
+
+plot_r_modal_theory_vs_r_simulation.m is used to calculate and plot the predictions of 1-D modal theory against the asymmetry of the 3-D moist modes in the GCM 
+(Fig. 4)
+
+plot_toy_model_macroturbulence_three_panels.m is used to calculate and plot the vertical velocity profile, and asymmetry for the 1-D toy model predictions (Fig. 5)
+
+plot_toy_model_macroturbulence_vs_gcm.m is used to compare the predictions of the 1-D toy model to the GCM in the macroturbulent phase (Fig. 6)
+plotting_w_spec_r_simulation.m is used to calculate the centroid wavenumber that is used in the 1-D toy model prediction
+
+plot_toy_model_1d_and_2d_k_input.m plots the toy model predictions for the asymmetry parameter lambda in 1-D vs. 2-D using the sinusoid and the box model
+(Fig. A1, appendix)
+
+Folder Asymmetry_Reanalysis:
+
+main_ncep2_x.m/main_erai_x.m/main_era5_x.m /main_era5_x_true_coarse_grain.m are used to calculate lambda across the different reanalysis products
+(NCEP2, ERAI, ERA5, and ERA5 coarse grained)
+
+main_r_parameter_ncep2_weighted.m, main_r_parameter_erai_weighted, main_r_parameter5_coarse_grained_weighted.m calculate the reduced stability parameter,
+centroid wavenumber, and static stability used for the toy model calculations across the different reanalysis products
+
+main_mode_calculation.m calculates the asymmetry predicted by moist modal theory as a function of the reduced stability parameter r
+
+plot_lambda_vs_theory_coarse_grain.m is used to calculate and compare the seasonal cycle of lambda from 1-D modal theory, 1-D toy model theory and ERA5 reanalysis coarse grained (Fig.7). 
+It also plots the seasonal cycle of the reduced stability parameter r, and the centroid wavenumber k in coarse grained ERA5 reanalysis. 
+
+plot_lambda_vs_reanalysis.m is used to compare the seasonal cycle of lambda across the different reanalysis products (Fig. 9)
+
+
+
+
+
