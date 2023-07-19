@@ -1,8 +1,9 @@
-Readme File paper (Kohl & O'Gorman 2023, submitted)
+Readme File for the paper 'Asymmetry of the Distribution of Vertical Velocities of the Extratropical Atmosphere in Theory, Models, and Reanalysis'
+(Kohl & O'Gorman 2023, submitted)
 
 Folder Inversion:
 
-Inversions of the Moist Omega Equation are done with the scripts plotting_abs_iterative(_rhs).m / plotting_abs_iterative_mode(_rhs).m
+Inversions of the moist omega equation in the macroturbulent and model regime are done with the scripts plotting_abs_iterative(_rhs).m / plotting_abs_iterative_mode(_rhs).m
 for the global warming simulations (abbreviated by 'abs') and plotting_r_iterative(_rhs).m/plotting_r_mode_iterative(_rhs).m for the reduced stability simulations. 
 plot_lambda_abs_simulation.m and plot_lambda_r_simulation.m are used to calculate lambda in the global warming and reduced stability simulations
 and plot_lambda_abs_and_r_simulation.m is used to make Fig. 3 comparing the asymmetry of the modal and macroturbulent regime in the two simulations. 
