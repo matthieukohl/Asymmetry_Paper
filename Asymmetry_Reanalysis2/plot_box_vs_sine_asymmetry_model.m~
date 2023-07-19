@@ -1,0 +1,27 @@
+% test sinusoid
+wd = 1;
+kd = 0.5;
+ku = 2;
+wu = ku*wd/kd; % constraint by mass conservation
+
+% define the domain
+
+xd = linspace(-pi/kd,0,100);
+xu = linspace(0,pi/ku,100);
+
+x = [xd,xu(2:end)];
+w = [wd*sin(kd*xd),wu*sin(ku*xu(2:end))];
+
+% lambda 
+
+%asymmetry(w)
+
+w_
+
+% prediction 
+
+Lu = pi/ku;
+Ld = pi/kd;
+1 - Lu/(Lu+Ld)
+
+kd/(kd^2/ku+kd)
